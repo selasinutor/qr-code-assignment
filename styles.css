@@ -1,0 +1,41 @@
+body{
+         align-items: center;
+             background-color: rgb(192, 215, 235); 
+                 justify-content: center;
+                       margin: auto;
+                         display: flex;
+                             flex-direction: column;
+                                 height: 100vh;
+                                       font-size: larger;
+                            }
+
+    .qr-container{
+               align-items: center;
+                 padding: 1rem;
+                      flex-direction: column;
+                          display: flex;
+                                justify-content: center;
+                                     border-radius: 1rem;
+                                     text-align: center;
+                                         background-color: white;
+                                            width: 40vh;
+                                              font-family:  sans-serif;
+                                                                      
+                                            }
+
+     .qr-container img{
+                height: inherit;
+                   width: inherit;
+                      border-radius: 1rem;
+                       }
+
+    .qr-container h4{
+               margin-bottom: 0;
+                  padding-bottom: 0;
+                    color: darkslateblue;
+                    }                   
+
+
+    .qr-container p{
+             color: darkgray;
+    }
